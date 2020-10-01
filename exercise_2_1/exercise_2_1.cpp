@@ -30,11 +30,8 @@ int main() {
   x = readInVector(s);
   std::cin >> s;
   w = readInVector(s);
-
-  //configured result
-  applyConvolution(x,w,true);
-  //oppposite
-  applyConvolution(x,w,false);
+  
+  applyConvolution(x,w,pack_with_zeros);
 
   return 0;
 }
