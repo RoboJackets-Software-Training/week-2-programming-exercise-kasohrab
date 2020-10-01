@@ -2,7 +2,7 @@
 
 #include <array>
 
-enum class Marker {
+enum Marker {
   Empty,
   X,
   O
@@ -51,5 +51,3 @@ private:
   void updateWinner(int last_r, int last_c);
 
 };
-
-
