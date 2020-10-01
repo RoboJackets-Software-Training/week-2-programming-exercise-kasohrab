@@ -23,14 +23,18 @@ int main() {
   std::vector<double> w;
   std::string s;
   std::cin >> s;
+  bool pack_with_zeros;
   if(s == "false") {
-    bool pack_with_zeros = false;
+    pack_with_zeros = false;
+  }
+  else {
+    pack_with_zeros = true;
   }
   std::cin >> s;
   x = readInVector(s);
   std::cin >> s;
   w = readInVector(s);
-  
+
   applyConvolution(x,w,pack_with_zeros);
 
   return 0;
