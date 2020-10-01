@@ -70,7 +70,6 @@ int main() {
   cout << "Good luck!\n\n";
 
   Board board;
-
   while(!board.isOver()) {
     printBoard(board);
     int r_move;
