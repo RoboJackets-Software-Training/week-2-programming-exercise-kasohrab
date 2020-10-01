@@ -36,7 +36,7 @@ std::vector<double> applyConvolution(std::vector<double> x, std::vector<double> 
 }
 
 void printVector(std::vector<double> vec) {
-  std::cout << " {" << vec[0];
+  std::cout << "{" << vec[0];
   for(int i = 1; i < vec.size(); i++) {
     std::cout << ", " << vec[i];
   }
